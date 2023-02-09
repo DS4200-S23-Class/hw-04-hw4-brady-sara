@@ -8,16 +8,15 @@ body {
 	text-align: center;
 }
 
-.columns {
-	display: flex;
-}
 
+/* columns, one 60% one 40% of the page*/
 .column1 {
-	flex: 60%;
-	padding: 10px;
+	float: left;
+	width: 60%;
 }
 
 .column2 {
-	flex: 40%;
-	padding: 10px;
+	float: left;
+	width: 40%;
 }
+
