@@ -1,0 +1,23 @@
+/* make font arial */
+body {
+	font-family: Arial;
+}
+
+/* center text */
+.centered {
+	text-align: center;
+}
+
+.columns {
+	display: flex;
+}
+
+.column1 {
+	flex: 60%;
+	padding: 10px;
+}
+
+.column2 {
+	flex: 40%;
+	padding: 10px;
+}
