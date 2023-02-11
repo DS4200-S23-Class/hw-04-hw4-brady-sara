@@ -20,6 +20,10 @@ body {
 	width: 40%;
 }
 
+.column3 {
+	float: left;
+	width: 100%;
+}
 /* svg frame */
 #frame {
 	width: 500px;
@@ -34,4 +38,9 @@ line {
 
 circle:hover {
 	fill: orange;
+}
+
+.addBorder {
+	stroke: seagreen;
+	stroke-width: 4;
 }
