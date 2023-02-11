@@ -1,16 +1,19 @@
 // JS file hw4
 // Sara & Brady
 
-// Doesnt work yet :(
+// Add border function
 function pointClicked() {
-	console.log("clicked");
-	let pointed = document.getElementById("point");
-
-	pointed.classList.toggle("addBorder");
-
-
+	// change class if clicked based on event listener
+	this.classList.toggle("addBorder");
 }
 
+// Create list of points
+let points = document.getElementsByTagName("circle");
 
-document.getElementsById("point")
-		.addEventListener('click', pointClicked);
+// loop through all points
+for (let i = 0; i < points.length; i++) {
+    
+    // check each point for clicks
+    let point = points[i];
+    point.addEventListener("click", pointClicked);
+}
