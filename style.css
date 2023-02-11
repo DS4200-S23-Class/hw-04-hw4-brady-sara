@@ -20,3 +20,14 @@ body {
 	width: 40%;
 }
 
+/* svg frame */
+#frame {
+	width: 500px;
+	height: 500px;
+	margin-left: 50px;
+}
+
+line {
+	stroke: black;
+	stroke-width: 10;
+}
