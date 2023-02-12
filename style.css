@@ -10,20 +10,18 @@ body {
 
 
 /* columns, one 60% one 40% of the page*/
+#vis{
+	display: flex;
+}
 .column1 {
-	float: left;
 	width: 60%;
 }
 
 .column2 {
-	float: left;
 	width: 40%;
 }
 
-.column3 {
-	float: left;
-	width: 100%;
-}
+
 /* svg frame */
 #frame {
 	width: 500px;
