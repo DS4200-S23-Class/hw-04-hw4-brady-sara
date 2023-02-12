@@ -39,6 +39,16 @@ function addPoint() {
 	// add a circle to the html
 	let circleStr = '<circle cx="' + x + '" cy="' + y + '" r="10"/>';
 	frame.innerHTML += circleStr;
+
+	let points = document.getElementsByTagName("circle");
+
+	// loop through all points
+	for (let i = 0; i < points.length; i++) {
+	    
+	    // check each point for clicks
+	    let point = points[i];
+	    point.addEventListener("click", pointClicked);
+}
 }
 
 // get the button Id
