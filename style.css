@@ -6,6 +6,7 @@ body {
 /* center text */
 .centered {
 	text-align: center;
+	clear: both;
 }
 
 
