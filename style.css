@@ -10,17 +10,15 @@ body {
 
 
 /* columns, one 60% one 40% of the page*/
-#vis{
-	display: flex;
-}
 .column1 {
+	float: left;
 	width: 60%;
 }
 
 .column2 {
+	float: left;
 	width: 40%;
 }
-
 
 /* svg frame */
 #frame {
@@ -29,15 +27,18 @@ body {
 	margin-left: 50px;
 }
 
+/* line attributes */
 line {
 	stroke: black;
 	stroke-width: 10;
 }
 
+/* change color when hovered */
 circle:hover {
 	fill: orange;
 }
 
+/* class for when circles are clicked on */
 .addBorder {
 	stroke: seagreen;
 	stroke-width: 4;
